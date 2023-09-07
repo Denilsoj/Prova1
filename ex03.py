@@ -1,10 +1,6 @@
-preco = float(input("Informe o preço do produto")) 
-preco_imposto = preco * 1.10
-preco_total = preco + preco_imposto
+num = int(input("Digite um valor inteiro"))
 
-if preco_total >= 100: 
-    print("O produto está caro")
-else:
-    print("O produto está em um bom preço")
+for i in range(10 + 1):
+    tabuada = num * i
 
-    
+    print (f"{num} x {i} = {tabuada}")

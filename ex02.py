@@ -1,7 +1,10 @@
-nota1 = float(input("Digite sua nota"))
-nota2 = float(input("Digite sua outra nota"))
+preco = float(input("Informe o preço do produto")) 
+preco_imposto = preco * 1.10
+preco_total = preco + preco_imposto
 
-media = (nota1 + nota2) / 2
+if preco_total >= 100: 
+    print("O produto está caro")
+else:
+    print("O produto está em um bom preço")
 
-
-print(f"Sua média é: {media}")
+    
